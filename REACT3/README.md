@@ -9,7 +9,7 @@ const [Contact , setContact] = useState([
 ]);
 ```
 
-### Using useState for this is lil Different
+### Using setContact     for this is lil Different
 ```bash
 setContact([...Contact , {id: Date.now() , name: input} ]);
 ```

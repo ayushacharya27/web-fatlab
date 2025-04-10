@@ -1,10 +1,10 @@
 # React Basic Syntax
 ## Time:
 ```bash
-const hour = new Date().gethours();
-const time = new Date().toLocaleTimeString();
+const hour = new Date().gethours(); // Gives hours
+const time = new Date().toLocaleTimeString(); // Gives Time
 ```
-### If else if and elseLoop for Selecting:
+### If, else if and else Loop for Selecting:
 ```bash
 const data = hour<12 ? "Good Morning" : hour<18 ? "Good AfterNoon" : "Good Evening;
 ```
